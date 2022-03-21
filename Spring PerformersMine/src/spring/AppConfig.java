@@ -6,6 +6,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @ComponentScan(basePackages = "spring")
 public class AppConfig {
+	
 //
 //	
 ////	@Bean(name = "shakesPearPoem")

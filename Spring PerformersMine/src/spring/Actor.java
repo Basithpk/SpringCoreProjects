@@ -1,11 +1,21 @@
 package spring;
 
-class Actor {
+import org.springframework.stereotype.Component;
 
-  public Actor(){
+@Component
+class Actor implements Performer {
+
+	@Override
+	public void perform() {
+	System.out.println("Hi i am an actor and i am performing");
+			
+	}
+	
+	public Actor(){
   
-    System.out.println("Testing Git");
-  }
+		System.out.println("Actor created");
+    
+	}	
 
 
 }

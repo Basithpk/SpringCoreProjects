@@ -7,7 +7,7 @@ class Actor implements Performer {
 
 	@Override
 	public void perform() {
-	System.out.println("Hi i am an actor and i am performing with somwthing interesting");
+	System.out.println("Hi i am an actor and i am performing with something interesting");
 			
 	}
 	

@@ -2,6 +2,7 @@ package spring;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class TestPerformers {
 
@@ -11,6 +12,8 @@ public class TestPerformers {
 		
 		ApplicationContext ctx = new AnnotationConfigApplicationContext(AppConfig.class);    //("spring");
 		
+		
+		ApplicationContext ct1 = new ClassPathXmlApplicationContext("");
 		
 	    String[] springComponents = ctx.getBeanDefinitionNames();
 	    for (String bean : springComponents)
